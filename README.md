@@ -3,7 +3,7 @@ Just enusre that you have an MYSQL db and your own local databsae before executi
 here is the following inforamtion related to DB.
 
 
-.....................................................................................................
+....................................................................................................................................
 DBNAME=hotel_bookings
 CREATE TABLE Rooms (
     room_number INT PRIMARY KEY,
@@ -19,4 +19,4 @@ CREATE TABLE Bookings (
     departure_date DATETIME,
     FOREIGN KEY (room_number) REFERENCES Rooms(room_number)
 );
-.....................................................................................................
+......................................................................................................................................
