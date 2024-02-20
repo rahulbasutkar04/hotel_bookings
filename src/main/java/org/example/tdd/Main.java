@@ -71,7 +71,7 @@ public class Main {
                     }
 
                     Booking booking = new Booking();
-                    booking.setClientId(clientId); // Set client ID obtained from user input
+                    booking.setClientId(clientId);
                     booking.setRoomNumber(roomNumber);
                     booking.setArrivalDate(arrivalDate);
                     booking.setDepartureDate(departureDate);
@@ -86,6 +86,8 @@ public class Main {
                     break;
                 default:
                     System.out.println("Invalid choice");
+
+
             }
         }
     }
